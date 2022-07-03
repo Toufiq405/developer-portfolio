@@ -1,0 +1,68 @@
+/* ===========================
+      Common CSS
+============================ */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+section {
+  height: 500px;
+}
+h1{
+  font-size: 50px;
+  font-weight: 600;
+  margin-top: 40px;
+}
+span {
+  color: orange;
+}
+h3 {
+  margin: 20px 0px;
+  font-weight: 600;
+}
+.text-justify {
+  text-align: justify;
+}
+/* ===========================
+      Home page design
+============================ */
+#homepage{
+  background: url(images/top-banner.png)no-repeat;
+}
+.homepage_continer{
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+}
+/* Text content design */
+.homepage_boxes {
+  padding-left: 2%;
+  margin-left: 2%;
+}
+/* Button design */
+.button_design {
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+  color: #fff;
+  background: linear-gradient(45deg,orange,tomato);
+  padding: 10px 40px;
+  border-radius: 5px;
+  font-weight: 700;
+}
+.jhankarVai_img {
+  width: 100%;
+}
+.gapdeowarjonno {
+  margin-left: 5%;
+}
